@@ -445,4 +445,25 @@ PRODUCT_BOOT_JARS += \
 
 # XiaomiParts
 PRODUCT_PACKAGES += \
+<<<<<<< HEAD:device.mk
     XiaomiParts
+=======
+    init.gpuboost.rc \
+    init.gpuboost.sh \
+    init.cpuboost.rc \
+    init.cpuboost.sh \
+    init.parallax.rc \
+    init.parallax.sh \
+    init.spectrum.rc \
+    init.spectrum.sh \
+    init.camera.rc \
+    init.camera.sh
+
+# IPA
+USE_DEVICE_SPECIFIC_DATA_IPA_CFG_MGR := true
+USE_DEVICE_SPECIFIC_IPACFG_MGR := true
+
+# Prebuilt Packages
+PRODUCT_PACKAGES += \
+    GalleryGo
+
