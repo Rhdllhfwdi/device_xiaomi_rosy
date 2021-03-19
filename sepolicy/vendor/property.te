@@ -1,0 +1,3 @@
+  
+# Wifi version recorder
+type vendor_wifi_version, property_type;
