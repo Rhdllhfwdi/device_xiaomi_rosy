@@ -11,6 +11,7 @@ LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_DEX_PREOPT := false
 include $(BUILD_PREBUILT)
 
+#GalleryGo
 include $(CLEAR_VARS)
 LOCAL_MODULE := GalleryGo
 LOCAL_OVERRIDES_PACKAGES := Gallery2 Photos QPGallery
